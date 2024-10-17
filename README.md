@@ -1,4 +1,14 @@
-# Python-Project
+# Predicting heart disease risk Project
+## Table of Contents
+ - [Project Overview](#project-overview)
+ - [Data preprocessing](#data-preprocessing)
+ - [Exploratory Data Analysis](#exploratory-data-analysis)
+ - [Feature Selection](#feature-selection)
+ - [Model Selection](#model-selection)
+ - [Model Validation and Training](#model-validation-and-training)
+ - [Findings](#findings)        
+ - [Recommendation](#recommendation)
+
 This Python project focuses on analyzing a healthcare dataset from Massachusetts General Hospital through a structured approach that includes data preprocessing, exploratory data analysis (EDA), feature selection, model selection, and model validation.
 
 Data Preprocessing: The project begins with importing necessary libraries (NumPy and Pandas) and loading the dataset from a CSV file into Jupyter Notebook. Initial data inspection revealed the presence of null values, which were addressed by replacing categorical variables with the mode and continuous variables with the mean. Duplicate entries were also removed to ensure data integrity.
